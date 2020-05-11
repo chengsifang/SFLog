@@ -7,6 +7,7 @@
 //
 
 #import "SFViewController.h"
+#import <SFLogManager.h>
 
 @interface SFViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    SFLog(@"xxx");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
